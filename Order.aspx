@@ -51,7 +51,7 @@
                     <div class="form-group">
                         <label class="col-sm-1">Quantity:</label>
                         <div class="col-sm-3">
-                    <asp:Label ID="lblTotal" runat="server" Text="Label" ForeColor="#660066"></asp:Label>
+                    <asp:Label ID="lblTotal" runat="server" Text="Quantity" ForeColor="#660066"></asp:Label>
                             <asp:TextBox ID="txtQuantity" runat="server" 
                                 CssClass="form-control"></asp:TextBox></div>
                         <div class="col-sm-8">
