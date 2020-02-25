@@ -47,6 +47,11 @@ namespace ShopCart1
         {
             Cartitem myCartItem = new Cartitem(selectedProduct, Convert.ToInt32(txtQuantity.Text));
             lblTotal.Text = "Purchasing " + myCartItem.Quantity + " " + myCartItem.Product.Name;
+            Session["CartItem"] = myCartItem;
+
+            //pass this to cart aspxcs
+            //Server.Transfer("Cart.aspx.cs");
+            
         }
     }
 }

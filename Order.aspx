@@ -7,6 +7,7 @@
 <head runat="server">
     <title>Ch04: Shopping Cart</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <a href="App_Code/">App_Code/</a>
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <link href="Content/site.css" rel="stylesheet" />
     <script src="Scripts/jquery-1.9.1.min.js"></script>
